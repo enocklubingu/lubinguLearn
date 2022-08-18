@@ -1,0 +1,4 @@
+name = input("Enter Name:")
+date = input("Enter Date:")
+result = input("Enter Results:")
+print("Dear " + name, "the result for your sample collected on " + date, "is " + result)
