@@ -1,0 +1,6 @@
+SELECT authors.name as "Author Name",
+       (SELECT COUNT(*)
+        FROM books b
+        WHERE authors.id = authors.Id
+       ) as num_books
+FROM authors;
